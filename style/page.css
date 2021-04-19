@@ -65,17 +65,77 @@ nav ul li a:hover
     font-size: 44px;
     
 }
-
+/*footer styled with navigation, background gray, keyframes for the slider to slide left and transition every 20secs*/
 .stylefooter 
 {
     background-color: gainsboro;
     padding: 5px;
     margin: 5px;
-    bottom: auto;
-    
+    bottom: auto;   
+}
+
+footer nav ul
+{
+    float: right;
+    list-style: none;
+    margin: 25px;
     
 }
-footer p
+
+footer nav ul li
 {
+    display:  inline-block;
+}
+
+footer nav ul li a
+{
+    text-decoration: none;
+    color:darkseagreen;
+    padding: 5px 20px;
+    border: 1px solid darkseagreen;
+    transition: 
+    
+}
+footer nav ul li a:hover
+{
+    background-color:#fff;
+    color: darkseagreen;
+    transition: 0.6s ease;
+}
+
+
+@keyframes slideshow 
+{
+    0%{left: 0;}
+    20%{left: 0%;}
+    25%{left: -100%;}
+    100%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+    125%{left: -400%;}
+}
+
+#slider
+{
+    overflow: hidden;
+}
+
+#slider figure img
+{
+    width: 20%;
+    float: left;
+}
+#slider figure
+{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slideshow infinite;
     
 }

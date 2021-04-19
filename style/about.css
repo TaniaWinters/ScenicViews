@@ -1,8 +1,4 @@
-{
-    margin: 0;
-    padding: 0;
-    font-family: cursive;
-}
+
 
 header
 {
@@ -75,4 +71,95 @@ footer p
 {
     font-display: block;
     font-variant-caps: titling-caps;
+}
+footer nav ul
+{
+    float: right;
+    list-style: none;
+    margin: 25px;
+    
+}
+
+footer nav ul li
+{
+    display:  inline-block;
+}
+
+footer nav ul li a
+{
+    text-decoration: none;
+    color:darkseagreen;
+    padding: 5px 20px;
+    border: 1px solid darkseagreen;
+    transition: 
+    
+}
+footer nav ul li a:hover
+{
+    background-color:#fff;
+    color: darkseagreen;
+    transition: 0.6s ease;
+}
+main section
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(../images/darkcarrowmore.jpg);
+    background-size: cover;
+    font-family: cursive bold;
+}
+.contact-form
+{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-form h1
+{
+    font-size: 32px;
+    line-height: 10px;
+    
+}
+.contact-form h2
+{
+    font-size: 16px;
+}
+form
+{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;   
+}
+.form-control
+{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;     
+}
+input
+{
+    height: 45px;   
+}
+form .submit
+{
+    background: darkseagreen;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form.control submit:hover
+{
+    background-color:grey;
+    cursor: pointer;
+            
 }
