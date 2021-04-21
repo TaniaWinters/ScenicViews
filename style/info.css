@@ -68,16 +68,14 @@ nav ul li a:hover
     background-color: gainsboro;
     padding: 5px;
     margin: 5px;
-    bottom: auto;
-    
-    
+    position: sticky fixed;
 }
-footer p
+/*footer p
 {
     font-display: block;
     font-variant-caps: titling-caps;
 }
-
+*/
 footer nav ul
 {
     float: right;
@@ -106,3 +104,6 @@ footer nav ul li a:hover
     color: darkseagreen;
     transition: 0.6s ease;
 }
+
+
+

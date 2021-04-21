@@ -1,0 +1,141 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+header
+{
+    background-image: url(../images/pier.jpg);
+    height: 50vh;
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+nav ul
+{
+    float: right;
+    list-style: none;
+    margin: 25px;
+    
+}
+
+nav ul li
+{
+    display:  inline-block;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 
+    
+}
+nav ul li a:hover
+{
+    background-color:#fff;
+    color: #000;
+    transition: 0.6s ease;
+}
+.logo img
+{
+    float: left;
+    padding: 10px;
+   
+}
+.main
+{
+    max-width: 1200px;
+    margin:auto;
+    
+}
+.title
+{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    text-align: center;
+    color: #fff;
+    font-size: 44px;
+    
+}
+/*footer styled with navigation, background gray, keyframes for the slider to slide left and transition every 20secs*/
+.stylefooter 
+{
+    background-color: gainsboro;
+    padding: 5px;
+    margin: 5px;
+    bottom: auto;   
+}
+
+footer nav ul
+{
+    float: right;
+    list-style: none;
+    margin: 25px;
+    
+}
+
+footer nav ul li
+{
+    display:  inline-block;
+}
+
+footer nav ul li a
+{
+    text-decoration: none;
+    color:darkseagreen;
+    padding: 5px 20px;
+    border: 1px solid darkseagreen;
+    transition: 
+    
+}
+footer nav ul li a:hover
+{
+    background-color:#fff;
+    color: darkseagreen;
+    transition: 0.6s ease;
+}
+
+
+@keyframes slideshow 
+{
+    0%{left: 0;}
+    20%{left: 0%;}
+    25%{left: -100%;}
+    100%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+    125%{left: -400%;}
+}
+
+#slider
+{
+    overflow: hidden;
+}
+
+#slider figure img
+{
+    width: 20%;
+    float: left;
+}
+#slider figure
+{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slideshow infinite;
+    
+}

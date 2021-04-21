@@ -8,7 +8,6 @@ header
 {
     background-image: url(../images/pier.jpg);
     height: 50vh;
-    width: 100%;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,4 +137,20 @@ footer nav ul li a:hover
     font-size: 0;
     animation: 20s slideshow infinite;
     
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
