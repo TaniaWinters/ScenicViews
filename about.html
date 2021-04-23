@@ -1,76 +1,74 @@
-<!doctype html>
-<!-- Scenic Views Project - Web Fundamentals
-Athor: Tania Winters
-Date: 15/03/2021
-Page Description:About Page Scenic Views
-Modified: Updated- -->
+    <!doctype html>
+    <!-- Scenic Views Project - Web Fundamentals
+    Athor: Tania Winters
+    Date: 15/03/2021
+    Page Description:About Page Scenic Views
+    Modified: Updated-->
 
-<html lang = "en">
-<head>
-<meta charset="UTF-8">
-<meta name = "description" content="Scenic Views ">
-<meta name = "keywords" content="Scenic Views, Scenic, Views, beautiful views, stunning views, amazing places">
+    <html lang = "en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name = "description" content="Contact us">
+    <meta name = "keywords" content="Scenic Views, Scenic, Views, beautiful views, stunning views, amazing places">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- <title>Scenic Views</title>
-<!----Insert link to the style--->
-<link rel="stylesheet" type="text/css" href="style/about.css">
+     <title>Scenic Views</title>
+    <!--Insert link to the style-->
+    <link rel="stylesheet" type="text/css" href="style/about.css">
 
- <link rel='icon' href='favicon/favicon.ico' type='image/x-icon'/>  
+     <link rel='icon' href='favicon/favicon.ico' type='image/x-icon'/>  
 
 
- </head>
+     </head>
 
-<body>
-<header>
-    
-    <div class="main"> 
+    <body>
+    <header>
+
+        <div class="main">       
+    <nav >
+    <ul>
+    <!--Unordered List -->
+    <li> <a href = "index.html">Home</a></li>
+    <li> <a href="about.html">About</a></li>
+        <li> <a href="information.html">Information</a></li>
+        <li> <a href="gallery.html">Gallery</a></li>
+    </ul>
+        </nav>
+            <section class="title">
+            <h1> Scenic Views</h1>
+            </section>
+
+        </div>
         <section class="logo">
-             <link rel='icon' href='favicon/favicon.ico' type='image/x-icon'/>       </section>      
-<nav >
-<ul>
-<!--Unordered List --->
-<li id="active"> <a href = "index.html">Home</a></li>
-<li> <a href="about.html">About</a></li>
-    <li> <a href="information.html">Information</a></li>
-    <li> <a href="gallery.html">Gallery</a></li>
-</ul>
-    </nav>
-        <section class="title">
-        <h1> Scenic Views</h1>
+        <img src="png/android-chrome-192x192.png" alt="logo" width="100" height="100">
+        </section>
+    </header>
+
+
+    <main>
+
+        <section class="Contact-Form">
+            <h1 style="color: #fff;">Contact us</h1>
+            <h2 style="color: white;">  Please feel free to message feedback or any relative information.</h2>
+        <form id="contact-form2" method="post" action="http://foo.com">
+        <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+        <textarea name="message" class="form-control" placeholder="Message" rows="6" required></textarea><br>
+        <input type="submit" class="form-control-submit" value="SEND MESSAGE">
+        </form>
         </section>
 
-    </div>
-    <section class="logo">
-    <img src="png/android-chrome-192x192.png" alt="logo" width="100" height="100">
-    </section>
-</header>
-
- 
-<main>
-   
-    <section class="Contact-Form">
-        <h1 style="color: #fff; font-family: cursive;">Contact us</h1>
-        <h2 style="color: white; font-family: cursive;">  Please feel free to message feedback or any relative information.</h2>
-    <form id="contact-form2" method="post" action="http://foo.com">
-    <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
-        <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
-    <input name="gender" type="gender" class="form-control" placeholder="gender" required><br>
-    <textarea name="message" class="form-control" placeholder="Message" rows="6" required></textarea><br>
-    <input type="submit" class="form-control-submit" value="SEND MESSAGE">
-    </form>
-    </section>
- 
-</main>
-<footer class="stylefooter">
-    <nav style="margin: 5px; padding: 5px;">
-<ul>
-<!--Unordered List --->
-<li id="active"> <a href = "index.html">Home</a></li>
-<li> <a href="about.html">About</a></li>
-    <li> <a href="information.html">Information</a></li>
-    <li> <a href="gallery.html">Gallery</a></li>
-</ul>
-    </nav>
-<p style="text-align:inherit">Scenic Views 2021&copy; </p> </footer>
-</body>
-</html>
+    </main>
+    <footer class="stylefooter">
+        <nav style="margin: 5px; padding: 5px;">
+    <ul>
+    <!--Unordered List -->
+    <li> <a href = "index.html">Home</a></li>
+    <li> <a href="about.html">About</a></li>
+        <li> <a href="information.html">Information</a></li>
+        <li> <a href="gallery.html">Gallery</a></li>
+    </ul>
+        </nav>
+    <p style="text-align:inherit">Scenic Views 2021&copy; </p> </footer>
+    </body>
+    </html>

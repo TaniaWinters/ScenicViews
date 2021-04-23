@@ -3,16 +3,17 @@
 Athor: Tania Winters
 Date: 15/03/2021
 Page Description:Gallery Page Scenic Views
-Modified: Updated- -->
+Modified: Updated-->
 
 <html lang = "en">
 <head>
 <meta charset="UTF-8">
-<meta name = "description" content="Scenic Views ">
-<meta name = "keywords" content="Scenic Views, Scenic, Views, beautiful views, stunning views, amazing places">
+<meta name = "description" content="Gallery">
+<meta name = "keywords" content="Gallery,Images, Photos,Scenic Views, Scenic, Views, beautiful views, stunning views, amazing places">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
  <title>Scenic Views</title>
-<!----Insert link to the style--->
+<!--Insert link to the style-->
 <link rel="stylesheet" type="text/css" href="style/page.css">
 
  <link rel='icon' href='favicon/favicon.ico' type='image/x-icon'/>  
@@ -24,12 +25,10 @@ Modified: Updated- -->
 <header>
     
     <div class="main"> 
-         <section class="logo">
-    <img src="png/android-chrome-192x192.png" alt="logo" width="100" height="100">
-    </section>            
+                    
 <nav >
 <ul>
-<!--Unordered List --->
+<!--Unordered List-->
 <li id="active"> <a href = "index.html">Home</a></li>
 <li> <a href="about.html">About</a></li>
     <li> <a href="information.html">Information</a></li>
@@ -41,7 +40,9 @@ Modified: Updated- -->
         </section>
 
     </div>
-   
+   <section class="logo">
+    <img src="png/android-chrome-192x192.png" alt="logo" width="100" height="100">
+    </section> 
 </header>
 
 <main>
@@ -60,7 +61,7 @@ Modified: Updated- -->
      <iframe width="700" height="450" src="https://www.youtube.com/embed/j-_SODz0DPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </aside>
     <aside style="text-align: center">
-        <iframe width="700" height="450" text-align="centre"   src="https://www.youtube.com/embed/7KZH3Ce1Q0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="700" height="450" src="https://www.youtube.com/embed/7KZH3Ce1Q0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p>
             These Video's you will find on YouTube. The Erris Beo promo video was to promote the fabulous scenic and adventures in the Erris Area. Click here to check out, <a href="https://www.youtube.com/watch?v=j-_SODz0DPI"  target="_blank" > <em>The Erris Beo Promo Video.</em></a>
             The Kerry waterfall has a stunning view and is an amazing way to get some exercise in and clear the mind. Click here to check out, <a href="https://www.youtube.com/watch?v=7KZH3Ce1Q0Q"  target="_blank" >the waterfall in Co.Kerry video.</a>
@@ -71,31 +72,30 @@ Modified: Updated- -->
     <section class="row">
     
     <section class="column">
-         <img src="images/westportgrounds7.jpg" alt="Westport  grounds" width="100%" height="80%">
-        <img src="images/waterfall.jpg" alt="Doolin" style="width: 100%; height: 100%; margin-top: 18%;">
+         <img class="westport_imagestyle" src="images/westportgrounds7.jpg" alt="Westport  grounds">
+       <img class="margin-top" src="images/waterfall.jpg" alt="Doolin">
      
     </section>
     <section class="column">
         
-            <audio controls="controls" style="text-align: center; margin-top: 5%; margin-left: 18%;">
+            <audio id="audio_style" controls="controls" >
           <source src="audio/mixkit-forest-waterfall-loop-2514.wav" type="audio/wav">
-          <span style="vertical-align: middle">Waterfall Sound</span>
         </audio>
         
-         <h6 style="font-family: cursive; letter-spacing: 1.6px; text-align: center; margin-left: 6%; margin-top: %">
+         <h6 id="h6style">
             Sound of Waterfall and Birds singing
         </h6>
-        <audio controls style="text-align: center; margin-top:2%; margin-left: 18%;">
+        <audio class="styleAudio" controls>
           <source src="audio/mixkit-little-birds-singing-in-the-trees-17.wav" type="audio/wav">
         </audio>
       
-        <img src="images/dingle.jpg" alt="Doolin" style="width: 100%; height: 80%;">
+        <img id="imagestyle" src="images/dingle.jpg" alt="Doolin">
         
     </section>
     <section class="column">
         
-        <img src="images/fallmore1.jpg" alt="Fallmore Beach" width="100%" height="80%">
-        <img src="images/carrowmorelake.jpg" alt="Carrowmore Lake" width="100%" height="80%" style="margin-top:10%;">
+        <img id="imgstyler" src="images/fallmore1.jpg" alt="Fallmore Beach">
+        <img id="styleimg" src="images/carrowmorelake.jpg" alt="Carrowmore Lake">
     </section>
 
 </section>
@@ -105,8 +105,8 @@ Modified: Updated- -->
 <footer class="stylefooter">
     <nav style="margin: 5px; padding: 5px;">
 <ul>
-<!--Unordered List --->
-<li id="active"> <a href = "index.html">Home</a></li>
+<!--Unordered List-->
+<li > <a href = "index.html">Home</a></li>
 <li> <a href="about.html">About</a></li>
     <li> <a href="information.html">Information</a></li>
     <li> <a href="gallery.html">Gallery</a></li>

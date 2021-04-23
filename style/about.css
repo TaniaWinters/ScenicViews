@@ -25,9 +25,7 @@ nav ul li a
     text-decoration: none;
     color:#fff;
     padding: 5px 20px;
-    border: 1px solid #fff;
-    transition: 
-    
+    border: 1px solid #fff;   
 }
 nav ul li a:hover
 {
@@ -69,8 +67,8 @@ nav ul li a:hover
 }
 footer p
 {
-    font-display: block;
     font-variant-caps: titling-caps;
+    
 }
 footer nav ul
 {
@@ -90,8 +88,7 @@ footer nav ul li a
     text-decoration: none;
     color:darkseagreen;
     padding: 5px 20px;
-    border: 1px solid darkseagreen;
-    transition: 
+    border: 1px solid darkseagreen; 
     
 }
 footer nav ul li a:hover
@@ -159,6 +156,8 @@ form .submit
 form.control submit:hover
 {
     color: white;
-    cursor: default;
-            
+    cursor: pointer;            
 }
+
+
+
