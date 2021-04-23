@@ -29,7 +29,6 @@ nav ul li a
     color:#fff;
     padding: 5px 20px;
     border: 1px solid #fff;
-    transition: 
     
 }
 nav ul li a:hover
@@ -46,7 +45,7 @@ nav ul li a:hover
 }
 .main
 {
-    max-width: 1200px;
+    max-width: 1200%;
     margin:auto;
     
 }
@@ -73,7 +72,6 @@ nav ul li a:hover
 }
 footer p
 {
-    font-display: block;
     font-variant-caps: titling-caps;
 }
 
@@ -99,10 +97,9 @@ footer nav ul li a
     text-decoration: none;
     color:darkseagreen;
     padding: 5px 20px;
-    border: 1px solid darkseagreen;
-    transition: 
-    
+    border: 1px solid darkseagreen;   
 }
+
 footer nav ul li a:hover
 {
     background-color:#fff;
@@ -121,12 +118,12 @@ footer nav ul li a:hover
 
 #articleDesign
 {
-    position: sticky inherit;
+    
     border-collapse: collapse;
     width: 30%;
     height: 55%;
     margin: 0;
-    margin-top: -28.2%;
+    margin-top: -22.2%;
     margin-left: 30.3%;
     padding: 8px;
     background-color: azure;
@@ -158,21 +155,25 @@ li:hover
     background-color: lightgray;
     line-height: inherit;
 }
+
 #StyleAsideOne
 {
-    position: sticky inherit;
     margin: 0;
-    margin-top: -33.5%;
-    margin-left: 74%;
-   
+    margin-top: -26.5%;
+    margin-left: 74%;   
 }
+
 #StyleAsideZero
 {
-    position: sticky inherit;
-    margin: 0;
-    margin-top: -130%;
-    margin-left: 59%;
     
+    margin: 0;
+    margin-top: -16%;
+    margin-left: 54%;
+    width: 200px;    
 }
 
-
+#asideimg 
+{
+    margin-left: 66%;
+    margin-top: -10%;   
+}

@@ -1,3 +1,4 @@
+body
 {
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
 header
 {
     background-image: url(../images/pier.jpg);
-    height: 50vh;
+    height: 70vh;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +34,6 @@ nav ul li a
     color:#fff;
     padding: 5px 20px;
     border: 1px solid #fff;
-    transition: 
     
 }
 nav ul li a:hover
@@ -92,7 +92,7 @@ footer nav ul li a
     color:darkseagreen;
     padding: 5px 20px;
     border: 1px solid darkseagreen;
-    transition: 
+
     
 }
 footer nav ul li a:hover
@@ -114,7 +114,7 @@ footer nav ul li a:hover
     75%{left: -300%;}
     95%{left: -300%;}
     100%{left: -400%;}
-    125%{left: -400%;}
+    100%{left: -400%;}
 }
 
 #slider
@@ -147,6 +147,12 @@ footer nav ul li a:hover
   width: 33.33%;
   padding: 5px;
 }
+.column img
+{
+    width: 100%; 
+    height: 80%;
+    margin-top:10%;
+}
 
 /* Clearfix (clear floats) */
 .row::after {
@@ -154,3 +160,63 @@ footer nav ul li a:hover
   clear: both;
   display: table;
 }
+.margin-top {
+    margin-top: 18%;
+    width: 100%;
+    height: 100%;
+}
+
+#audio_style 
+{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 18%;
+}
+
+#h6style 
+{
+    font-family: cursive;
+    letter-spacing: 1.6px; 
+    text-align: center; 
+    margin-left: 4%;
+    margin-top: 10%;
+    
+}
+
+.westport_imagestyle 
+{
+    width: 100%;
+    height: 80%;
+}
+
+#imagestyle 
+{
+    width: 100%;
+    height: 80%;
+}
+#style img
+{
+     width: 100%;
+     height: 80%;
+}
+
+.styleAudio 
+{
+    text-align: center;
+    margin-top:2%; 
+    margin-left: 18%;
+}
+
+#styleimg
+{
+    width: 100%;
+    height: 80%;
+}
+
+#imgstyler
+{
+    width: 100%;
+    height: 80%;
+}
+
+
