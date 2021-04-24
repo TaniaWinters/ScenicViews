@@ -1,0 +1,179 @@
+body
+{
+    font-family: cursive;
+}
+
+header
+{
+    background-image: url(../images/lake.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+nav ul
+{
+    float: right;
+    list-style: none;
+    margin: 25px;
+    
+}
+
+nav ul li
+{
+    display:  inline-block;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    
+}
+nav ul li a:hover
+{
+    background-color:#fff;
+    color: #000;
+    transition: 0.6s ease;
+}
+.logo img
+{
+    float: left;
+    padding: 5px;
+   
+}
+.main
+{
+    max-width: 1200%;
+    margin:auto;
+    
+}
+.title
+{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    
+}
+
+.stylefooter 
+{
+    background-color: gainsboro;
+    padding: 2px;
+    margin: 2px;
+    bottom: 10px;
+    right: 10px;
+    bottom: auto;
+    clear: both;      
+}
+footer p
+{
+    font-variant-caps: titling-caps;
+}
+
+section aside h2 
+{
+    text-decoration: none;
+}
+footer nav ul
+{
+    float: right;
+    list-style: none;
+    margin: 25px;
+    
+}
+
+footer nav ul li
+{
+    display:  inline-block;
+}
+
+footer nav ul li a
+{
+    text-decoration: none;
+    color:darkseagreen;
+    padding: 5px 20px;
+    border: 1px solid darkseagreen;   
+}
+
+footer nav ul li a:hover
+{
+    background-color:#fff;
+    color: darkseagreen;
+    transition: 0.6s ease;
+}
+.left_aside
+{
+   border: 1px solid #f5f5f5;
+   width: 30%;
+   color: dimgrey;
+   text-align: center;
+   background-color: #f5f5f5;
+ 
+}
+
+#articleDesign
+{
+    
+    border-collapse: collapse;
+    width: 30%;
+    height: 55%;
+    margin: 0;
+    margin-top: -22.2%;
+    margin-left: 30.3%;
+    padding: 8px;
+    background-color: azure;
+    color: dimgray;
+}
+
+#articleDesign ul li
+{
+    display:  inline-block;
+}
+
+ #articleDesgin ul li a
+{
+    text-decoration: none;
+    color:darkseagreen;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid darkseagreen;
+    
+    
+}
+#articleDesign ul li a
+{
+    background-color:#fff;
+    color: darkseagreen;
+    transition: 0.6s ease;
+}
+li:hover
+{
+    background-color: lightgray;
+    line-height: inherit;
+}
+
+#StyleAsideOne
+{
+    margin: 0;
+    margin-top: -26.5%;
+    margin-left: 74%;   
+}
+
+#StyleAsideZero
+{
+    
+    margin: 0;
+    margin-top: -14%;
+    margin-left: 54%;
+    width: 200px;    
+}
+
+#asideimg 
+{
+    margin-left: 66%;
+    margin-top: -10%;   
+}
